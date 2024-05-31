@@ -1,0 +1,223 @@
+
+:root {
+    --background-color:#17171f;
+
+}
+
+/* Elementos */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 1.4em;
+    text-align: justify ;
+}
+
+li {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6em;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-box {
+    display: flex;
+    padding: 0em 4em;
+    align-items: center;
+    gap: 2em;
+}
+
+#devicon {
+    width: 4em;
+    height: 3em;
+}
+
+.navbar {
+    display: flex;
+    padding-right: 4em;
+
+}
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    gap: 4em;
+}
+
+.menu__list__item {
+    cursor: pointer;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-weight: bold;
+}
+
+.menu__list__item:hover {
+    color: rgb(166, 164, 164);
+}
+
+
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6em;
+    width: 80%;
+    gap: 6em;
+}
+
+.presentation {
+    display: flex;
+    width: 100%;
+}
+
+.presentation__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.presentation__container__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#foto-mia {
+    width: 18em;
+    border-radius: 20em;
+    box-shadow: 0px 0px 160px 2px rgba(255, 255, 255, 0.163);
+}
+
+.about-me__text {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: justify;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+.about-me__text p {
+    font-size: 1.2em;
+}
+.skills__container, .hobbies__container{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.skills__list, .hobbies__list, .education__list, .contact__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__list__item, .hobbies__list_item .education__list__item, .contact__list__item{
+    display: flex;
+}
+
+.skill, .hobbie {
+    border: solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1em;
+
+}
+
+.skill:hover, .hobbie:hover {
+    box-shadow: 0em 0em 6em 2px white;
+}
+
+.skill, .hobbie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.skill__image, .hobbie__image {
+    width: 6em;
+    height: 6.2em;
+}
+
+/* cambiar a una caja con fondo para que no se distorsione mientras asi */
+.education__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.education__image {
+    width: 20em;
+    height: 20em;
+}
+
+.education__list {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+.skill__text, .hobbie_text {
+    font-size: 1.5em;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.contact__image {
+    width: 3em;
+}
+
+.contact__list {
+    display: flex;
+    justify-content: space-around;
+}
+.contact__list__item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-family:"Wix Madefor Display", sans-serif;
+    font-weight: bold;
+}
+footer {
+    width: 100%;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
